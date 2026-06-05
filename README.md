@@ -91,7 +91,11 @@ to save and restore thread execution state without kernel involvement.
 
 ## Demo Output
 
-*Will be updated once the project is built and run.*
+## Demo
+
+![Thread Scheduler Visualizer](docs/screenshot.png)
+
+🔗 **[Live Demo](https://userspace-thread-scheduler-cpp.vercel.app)**
 
 ---
 
