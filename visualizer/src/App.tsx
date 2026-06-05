@@ -191,7 +191,7 @@ export default function App() {
           </p>
         </div>
         <a
-          href="https://github.com/Preethi0602"
+          href="https://github.com/Preethi0602/Userspace-thread-scheduler-cpp"
           target="_blank"
           rel="noreferrer"
           className="text-xs text-amber-400 border border-amber-700 px-3 py-1 rounded hover:bg-amber-900 transition"
