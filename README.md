@@ -36,7 +36,7 @@ This is exactly what the Linux kernel does, just without the hardware timer inte
 
 ## Scheduling policies
 
-**Round Robin** is the default -- each thread gets equal time in order. Simple and fair.
+**Round Robin** is the default; each thread gets equal time in order. Simple and fair.
 
 **Priority** always runs the highest priority thread first. Works well when some tasks genuinely matter more, but low-priority threads can starve if high-priority ones never finish.
 
@@ -46,7 +46,7 @@ This is exactly what the Linux kernel does, just without the hardware timer inte
 
 ## Synchronization
 
-The Mutex and Semaphore implementations use the scheduler's blocking mechanism rather than busy-waiting. When a thread can't acquire a lock, it gets moved to a `waitQueue` and removed from the run queue entirely so it consumes zero CPU until the lock is released. This is the difference between blocking and spinning.
+The Mutex and Semaphore implementations use the scheduler's blocking mechanism rather than busy-waiting. When a thread can't acquire a lock, it gets moved to a `waitQueue` and removed from the run queue entirely, so it consumes zero CPU until the lock is released. This is the difference between blocking and spinning.
 
 ---
 
